@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>ic-edit-outline-svg</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAAXNSR0IB2cksfwAAAC1QTFRF////1ebtnp6ccHBwuLi43+zyv8zS+fv8q7K0m56eoqywXnB41ubuWXB78vf6KwZhCwAAAHNJREFUeJxjYIACIWMjGJOBydjYWAHGUTYCIZiEERDDJYwdGIxhEgrKJjCOMkiRkjFMAihgbAiTgIrAKKjJlEkwIEuwgvwBk2AyAjKYoa5nNgM5DOqvYgMmJC8qcMC9yDBZydjYCsbZbGykAw8WW6UHcDYApkkS926U9H0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

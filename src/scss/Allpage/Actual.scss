@@ -1,0 +1,93 @@
+.actual_li{
+    text-align: left;
+    font: normal normal normal 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1; 
+    padding-right: 10em;
+}
+.select_option{
+    text-align: left;
+font: normal normal 600 14px/18px Montserrat;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+ul li::before{
+    display: none;
+}
+.actual_backbutton{
+    background: none;
+    border: none;
+    color: #00506A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.actual_backbutton i {
+    color: #00506A !important;
+
+}
+.actual_b_button_one{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    opacity: 1;
+    font: normal normal bold 18px/22px Montserrat;
+    // width: 16.5em !important;
+    // margin-bottom: 2em !important;
+    padding: .75em 0;
+    
+    color: #E24C4B;
+    font: normal normal bold 18px/22px Montserrat;
+    // padding: .5em 0;
+    // margin-bottom: 2    em !important;
+  @media only screen and (max-width: 992px) {
+    font: normal normal bold 12px/18px Montserrat;
+    padding: .5em 0;
+
+  
+}
+
+
+}
+
+.actual_b_button_one:hover {
+    background-color: #cfcaca !important;
+}
+
+.actual_b_button_two{
+    background: #00506A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000099;
+    border-radius: 4px;
+    border: none;
+    opacity: 1;
+    font: normal normal bold 18px/22px Montserrat;
+    // width: 16.5em !important;
+    // margin-bottom: 2em !important;
+    color: #FFFFFF;
+    padding: .5em 0;
+
+}
+
+.actual_h3{
+    font: normal normal bold 14px/18px Montserrat;
+letter-spacing: 0px;
+color: #63B3CE;
+opacity: 1;
+margin-top: 2em;
+}
+.css-10hburv-MuiTypography-root{
+    text-align: right !important;
+font: normal normal 300 12px/14px Montserrat !important;
+letter-spacing: 0px !important;
+color: #333333 !important;
+opacity: 1 !important;
+}
+.css-1p823my-MuiListItem-root{
+    padding: 4px 0 !important;
+}
+.css-cveggr-MuiListItemIcon-root{
+    min-width: none !important;
+}
+.css-cveggr-MuiListItemIcon-root{
+    min-width: 10px !important;
+}

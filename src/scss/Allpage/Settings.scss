@@ -1,0 +1,105 @@
+.settings_mainHeading {
+    text-align: center;
+    font: normal normal bold 28px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #63B3CE;
+    opacity: 1;
+    @media only screen and (max-width: 992px) {
+        font: normal normal bold 20px/28px Montserrat !important;
+    }
+}
+
+.settings_mainDiv {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000099;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+    height: 20em;
+    margin-left: 1em;
+}
+
+.settings_subHeading {
+    text-align: center;
+    font: normal normal bold 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #006594;
+    opacity: 1;
+}
+
+
+.settings-radio {
+    display: flex;
+    justify-content: space-between;
+
+    &__img {
+        height: 3em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+
+
+    }
+
+    &__p {
+        margin-left: 1em;
+        font: normal normal bold 18px/22px Montserrat;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+
+        padding-top: .5em;
+    }
+
+    &__mainp {
+        text-align: center;
+        font: normal normal normal 24px/29px Montserrat;
+        letter-spacing: 0px;
+        color: #00506A;
+        opacity: 1;
+        margin-top: 1.5em;
+    }
+}
+
+.setting-btn {
+    &__btn {
+
+        background: #F2A100 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 4px #00000099;
+        border-radius: 4px;
+        opacity: 1;
+        margin-top: 2em;
+        padding: 1.5em;
+        text-align: center;
+        font: normal normal bold 16px/19px Montserrat;
+        letter-spacing: 0px;
+        border: none;
+        color: #FFFFFF;
+        opacity: 1;
+
+    }
+
+    &__icon {
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 1em;
+        font-size: 1.5em;
+    }
+}
+
+.switch-horizontalLine {
+    display: flex;
+    text-align: center;
+    font: normal normal bold 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin: 1em 0 !important
+}
+
+.switch-horizontalLine::before,
+.switch-horizontalLine::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid #63B3CE;
+    margin: auto;
+    padding: 0 2px !important;
+}

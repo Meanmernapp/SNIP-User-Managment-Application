@@ -1,0 +1,272 @@
+.case-acc {
+    &__heading {
+        text-align: left;
+        font: normal normal bold 16px/19px Montserrat;
+        letter-spacing: 0px;
+        color: #63B3CE;
+        opacity: 1;
+    }
+
+    &__subHeading {
+        text-align: left;
+        font: normal normal bold 16px/19px Montserrat;
+        letter-spacing: 0px;
+        color: #006594;
+        opacity: 1;
+        margin-bottom: .25em !important;
+    }
+
+    &__p {
+        text-align: left;
+        font: normal normal normal 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+        margin-bottom: .25em !important;
+
+    }
+
+    &__img {
+        height: 3em !important;
+    }
+
+    &__img-p {
+        text-align: left;
+        font: normal normal normal 12px/15px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin-bottom: 0;
+    }
+
+    &__img-p-two {
+        text-align: left;
+        font: normal normal normal 10px/13px Montserrat;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
+
+    &__invst-p {
+        text-align: left;
+        font: normal normal normal 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #707070;
+    }
+
+    &__invst-p span {
+        text-align: left;
+        font: normal normal bold 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #707070;
+    }
+
+    &__active {
+        text-align: left;
+        font: normal normal bold 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #0C4523;
+        opacity: 1;
+        margin-bottom: .25 em !important;
+    }
+}
+
+.case-acc-row {
+    margin-top: 2em !important;
+}
+
+.dot {
+    height: 1em;
+    width: 1em;
+    padding-top: 1em !important;
+    background-color: #0C4523;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+
+// .accordion-heading a.accordion-toggle {
+//     display: inline-block;
+// }
+
+.listlines {
+    list-style: circle;
+
+}
+
+.listlines li {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.beforeli::before {
+    content: "";
+    display: inline;
+    padding-top: 5em;
+    width: .2rem;
+    height: 5rem;
+    background-color: #900;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+// .listlines li::before{
+//     content: "";
+//     display: block;
+//     width: 2rem;
+//     height: .2rem;
+//     background-color: #900;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+// }
+// .accordion-button::after {
+//     order: -1;
+//     margin-left: 0;
+//     margin-right: 0.5em;
+//     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"%3E%3C!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d="M27.66 224h264.7c24.6 0 36.89-29.78 19.54-47.12l-132.3-136.8c-5.406-5.406-12.47-8.107-19.53-8.107c-7.055 0-14.09 2.701-19.45 8.107L8.119 176.9C-9.229 194.2 3.055 224 27.66 224z"/%3E%3C/svg%3E') !important;
+//     background-color: white;
+// }
+
+// .accordion-button:not(.collapsed)::after {
+
+//     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"%3E%3C!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d="M27.66 224h264.7c24.6 0 36.89-29.78 19.54-47.12l-132.3-136.8c-5.406-5.406-12.47-8.107-19.53-8.107c-7.055 0-14.09 2.701-19.45 8.107L8.119 176.9C-9.229 194.2 3.055 224 27.66 224z"/%3E%3C/svg%3E') !important;
+//     background-color: white;
+// }
+.create-case-li {
+    margin-top: 2em;
+    list-style-type: disc;
+    padding-left: 1em;
+    font: normal normal bold 28px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #63B3CE;
+    opacity: 1;
+}
+
+.create-reportcase-mainDiv {
+
+    align-items: center;
+    text-align: center;
+    margin: 3em auto !important;
+
+}
+
+.right-arrow {
+    height: .75em;
+}
+.new_role_available .new_role_available_container .accordion-body img {
+    width: 11px;
+    height: 1em;
+}
+.create-case{
+    &__mainDiv{
+        width: 30em;
+        float: right;
+    }
+    &__subMainDiv{
+        width: 30em;
+        float: right !important;
+        border-left: 3px solid grey;
+        height: 15vh;
+        margin-top: .5em;
+        margin-right: 4em;
+    }
+    &__buttons{
+        display: flex;
+        justify-content: center;
+    }
+}
+.form-crear-new-caso{
+    width: 40%;
+    margin: auto; 
+    @media only screen and (max-width: 902px) {
+        width: 80%;
+        
+        }
+    
+}
+
+.MuiStepContent-root{
+ margin-left: -100% !important;
+ border: none !important;   
+ 
+ margin-bottom: .5em;
+
+}
+
+
+
+.create-case-background{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 4px #00000080;
+border-radius: 6px;
+opacity: 1;
+margin-right: 1em;
+}
+.card-pbold{
+    text-align: left;
+font: normal normal bold 10px/13px Montserrat;
+letter-spacing: 0px;
+margin-top: 0;
+margin-bottom: 0;
+color: #707070;
+opacity: 1;
+}
+.card-pNormal{
+    text-align: left;
+font: normal normal normal 10px/13px Montserrat;
+letter-spacing: 0px;
+margin-top: 0;
+margin-bottom: 0;
+color: #707070;
+opacity: 1;
+    &__p{
+        // text-align: left;
+        font: normal normal normal 10px/11px Montserrat;
+        letter-spacing: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #707070;
+        opacity: 1;
+    }
+}
+.img-size{
+    height: 2em !important; 
+}
+.img-size-one{
+    height: 3em !important; 
+margin-top: 1em;
+}
+.level-end{
+    text-align: center;
+font: normal normal bold 22px/27px Montserrat;
+letter-spacing: 0px;
+color: #006594;
+opacity: 1;
+}
+.vl-int{
+    border-right: #63B3CE 3px dashed ;
+    @media only screen and (max-width: 992px) {
+    border-bottom: #63B3CE 3px dashed ;
+    border-right: 0;
+    padding-bottom: 2em;        
+        }
+}
+.pdf-box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 4px #00000099;
+opacity: 1;
+}
+.pdf-row{
+    display: flex;
+}
+.pdf-box{
+    width: 30%;
+    margin-right: 1em;
+}
+.img-size-case{
+    height: 1em !important;
+}

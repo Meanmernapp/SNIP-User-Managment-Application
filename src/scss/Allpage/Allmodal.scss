@@ -1,0 +1,167 @@
+.main-modal-heading {
+  text-align: center;
+  font: normal normal bold 17px Montserrat;
+  letter-spacing: 3px;
+  color: #006837;
+  opacity: 1;
+  padding: 15px 0;
+}
+
+.primary-modal-table {
+  table {
+    width: 80%;
+    margin: auto;
+  }
+
+  th {
+    width: 50%;
+    white-space: pre;
+    font: normal normal normal 14px Montserrat;
+    font-weight: 400;
+    padding: 3px 0;
+  }
+
+  td {
+    padding: 5px 0;
+
+    text-align: right;
+    font: normal normal normal 12px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    font-weight: 300;
+  }
+}
+
+.button-sec {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font: normal normal bold 11px Montserrat;
+  width: 130px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.btn-cancel {
+  background-color: #fff;
+  color: #006837;
+}
+
+.btn-confirm {
+  background-color: #006837;
+  color: #fff;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.modal-close-btn {
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  width: 30px;
+  background-color: #fff;
+  color: #f44336;
+  top: 0;
+  right: 0;
+}
+
+.second-heading {
+  text-align: left;
+  font: normal normal bold 17px Montserrat;
+  letter-spacing: 3px;
+  color: #006837;
+  opacity: 1;
+  padding: 15px 0 0 30px;
+}
+
+.second-modal-body {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.second-heading-first {
+  font: normal normal 600 12px Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  display: block;
+  margin-bottom: 0;
+  line-height: 0;
+  padding-top: 10px;
+}
+
+.count-tag {
+  font: normal normal 300 10px Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.modal-list-style {
+  padding-left: 14px;
+  padding-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: green;
+  font-weight: 900;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.modal-list-item {
+  text-align: left;
+  font: normal normal 300 12px Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.Actual_h1 {
+  padding-bottom: 50px;
+  // padding-left: 5em !important;
+  padding-top: 20px;
+  // margin-left: 4.5em;
+
+  text-align: left;
+  font: normal normal bold 30px/42px Montserrat;
+  letter-spacing: 0px;
+  color: #00506A;
+  opacity: 1;
+
+  @media only screen and (max-width: 992px) {
+    font: normal normal bold 20px/32px Montserrat;
+    // padding-left: 5em !important;
+    // margin-left: 4em;
+    padding-bottom: 25px;
+
+  }
+}
+
+.modal_button {
+  margin-left: 30%;
+  padding-top: 12%;
+}
+
+
+.fade.modal-backdrop.newBackdrop.show {
+  opacity: 0.8 !important;
+}
+.main-home-right{
+  width: 100vw;
+  box-sizing: border-box;
+}

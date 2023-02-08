@@ -1,0 +1,79 @@
+.settings_div{
+    // position: absolute;
+    background: #FFFFFF99 0% 0% no-repeat padding-box;
+    margin-top: 4em !important;
+    // height: 220px;
+    box-shadow: 4px 4px 8px #FFFFFF;
+    border-radius: 12px;
+    opacity: 1;
+}
+.navpanel_h2{
+    padding-top: 1.5em;
+    text-align: center;
+    font: normal normal bold 30px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    justify-content: center;
+    @media only screen and (max-width: 992px) {
+        font: normal normal bold 20px/32px Montserrat;
+    }
+}
+.setting-img{
+    // position: absolute;
+    height: 5em;
+    margin: 0 auto;
+    // align-self: center;
+}
+.setting_h3{
+    text-align: center;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    
+    @media only screen and (max-width: 992px) {
+        font: normal normal normal 16px/20px Montserrat;
+      }
+}
+.bg-img{
+    background-image: url('../../images/stock-photo-male-it-specialist-holds-laptop-and-discusses-work-with-female-server-technician-they-re-standing-1062915392.png') !important;
+    height: 100vh !important;
+    width: 100%;
+}
+
+.settings_div_2{
+    position: absolute;
+    background: #FFFFFF99 0% 0% no-repeat padding-box;
+    top: 25%;
+    left: 30%;
+    width: 240px;
+    height: 220px;
+    box-shadow: 4px 4px 8px #FFFFFF;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.user-img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70px;
+    top: 40px;
+}
+
+.user_h3{
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    left: 30px;
+}
+.container-size{
+    width: 95%;
+    padding: 0 1.5em !important ;
+    float: right;
+}

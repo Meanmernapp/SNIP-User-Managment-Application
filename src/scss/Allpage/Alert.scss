@@ -1,0 +1,141 @@
+.alert-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    margin-bottom: 3em;
+
+    &__h1 {
+        color: var(--primary-00506a);
+        text-align: center;
+        font: normal normal bold 40px/50px Montserrat;
+        letter-spacing: 0px;
+        color: #00506A;
+        opacity: 1;
+    }
+
+    &__addButton {
+        background: #00506A 0% 0% no-repeat;
+        box-shadow: 0px 0px 4px #00000080;
+        border-radius: 4px;
+        height: 3.5em;
+        width: 16em;
+        opacity: 1;
+        font: normal normal 600 16px/19px Montserrat;
+        letter-spacing: 0px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    &__deleteButton {
+        background: #E24C4B 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 4px #00000099;
+        border-radius: 4px;
+        border: none;
+        height: 3.5em;
+        width: 16em;
+        opacity: 1;
+        font: normal normal 600 16px/19px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        @media only screen and (max-width: 992px) {
+            font: normal normal 600 12px/15px Montserrat;
+        }
+    }
+
+    &__icAdd {
+        height: 1em;
+        margin-bottom: .20em;
+    }
+}
+
+.alert-main-table {
+    margin-top: 1em;
+
+    &__headingRow {
+        display: flex !important;
+        justify-content: space-between;
+
+        &__h6 {
+            text-align: left;
+            font: normal normal bold 14px/17px Montserrat;
+            letter-spacing: 0px;
+            color: #00506A;
+            opacity: 1;
+        }
+
+        &__h6User {
+            width: 70%;
+            
+            text-align: left;
+            font: normal normal bold 14px/17px Montserrat;
+            letter-spacing: 0px;
+            color: #00506A;
+            opacity: 1;
+        }
+
+    }
+
+    &__DataRow {
+        display: flex !important;
+        justify-content: space-between;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 2px 2px 4px #00000080;
+        border-radius: 6px;
+        opacity: 1;
+        height: 2em;
+        margin-top: 1em;
+
+        &__input {
+            // margin-left: 3em;
+            display: flex;
+
+            &__input {
+                color: #F2A100;
+                font-size: 1em;
+                opacity: 1;
+
+                margin: auto 1em;
+            }
+
+            // justify-content: space-between;
+        }
+
+        &__inputOne {
+            width: 70%;
+            // margin-left: 1em;
+            margin-right: 3em;
+        }
+
+        &__inputTwo {
+            margin-right: 6em;
+        }
+
+
+
+    }
+}
+
+.alert_trash_can {
+    color: red;
+    font-size: 1em;
+    opacity: 1;
+    line-height: 1.6em;
+    margin: auto 1em;
+
+}
+.star {
+    visibility:hidden;
+    font-size:30px;
+    margin-left: .25em;
+    
+    cursor:pointer;
+}
+.star:before {
+   content: "\2605";
+margin-bottom: .25em;
+   visibility:visible;
+   color:#F2A100;
+}
+.star:checked:before {
+   content: "\2606";
+}

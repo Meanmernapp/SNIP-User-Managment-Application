@@ -1,0 +1,196 @@
+.searchM_main_img{
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.searchM_home{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+    bottom: 100px;
+    left: 70px;
+}
+.searchM_main_input{
+    display: flex;
+    border: 3px solid green;
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 39px;
+    opacity: 1;
+}
+.searchM_button{
+    background: #006837 0% 0% no-repeat padding-box;
+    border-top-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+    opacity: 1;
+    height: 40px;
+    margin-top: -1px;
+    margin-right: -1px;
+    
+    padding: 0 30px;
+}
+.searchM_icon{
+    color: white;
+    font-size: 25px;
+    background: transparent 0% 0% no-repeat padding-box;
+}
+.searchM_span{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0px -15px;
+    height: 40px;
+}
+.searchM_input_line{
+    display: flex;
+    justify-content: center;
+    
+}
+.searchM_a_tag{
+    cursor: pointer;
+    
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left;
+    font: normal normal bold 16px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #006837;
+    opacity: 1;
+    height: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+.searchM_name_input{
+    display: flex;
+    margin-top: 20px;
+
+}
+.searchM_inputValues{
+    display: flex;
+    flex-direction: row;
+}
+.searchM_mainButtons{
+    display: flex;
+}
+.searchM_name_label{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 40px;
+}
+.searchM_input_name{
+    background: #FFFFFF no-repeat padding-box;
+        opacity: 1;
+        
+        margin-right: 8px;
+}
+.button{
+    background: none;
+    border: none;
+    text-align: left;
+    text-align: left;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1
+}
+.addButton{
+    font-size: medium;
+    margin-right: 5px;
+}
+.searchM_input_email{
+    width: 584px;
+    margin-left: 12px;
+    background: #FFFFFF no-repeat padding-box;
+    opacity: 1;
+     margin-right: 8px;
+}
+.searchM_input_phone{
+    background: #FFFFFF no-repeat padding-box;
+    opacity: 1;
+    margin-right: 8px;
+}
+.ccInput{
+    margin-left: -5px;
+    width: 250px;
+}
+.phoneInput{
+    width: 326px;
+}
+.searchM_input_userName{
+    width: 500px;
+    margin-left: -20px;
+    background: #FFFFFF no-repeat padding-box;
+    opacity: 1;
+     margin-right: 8px;
+}
+.searchM_input_direction{
+    background: #FFFFFF no-repeat padding-box;
+        opacity: 1;
+        height: 30px;
+        width: 140px;
+        margin-right: 8px;
+}
+.searchM_name_age{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 65px;
+}
+.searchM_name_employee{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 38px;
+}
+.searchM_name_education{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 35px;
+}
+.searchM_name_associate{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 31px;
+}
+.searchM_name_direction{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 18px;
+}
+.searchM_button_submit{
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--unnamed-color-006837);
+    background: #006837 0% 0% no-repeat padding-box;
+    border: 1px solid #006837;
+    border-radius: 9px;
+    opacity: 1;
+    width: 164px;
+    height: 55px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #CBCDD9;
+}

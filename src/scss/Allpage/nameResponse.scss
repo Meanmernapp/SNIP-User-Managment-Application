@@ -1,0 +1,76 @@
+.side-filter-bar {
+
+    width: 200px;
+  
+  
+  }
+  
+  
+  
+  .nav-link {
+  
+    font: normal normal 600 14px Segoe UI !important;
+  
+    padding: 0.3rem 1rem !important;
+  
+    color: #000000 !important;
+  
+  }
+  
+  
+  
+  .side-filter-bar .nav-link:focus,
+  
+  .nav-link:hover,
+  
+  .nav-link:active {
+  
+    color: #006837 !important;
+  
+  }
+  
+  
+  
+  .sub-check-box {
+  
+    padding-left: 14px;
+  
+    display: block;
+  
+  }
+  
+  
+  
+  .parent-check-box {
+  
+    display: block;
+  
+  }
+  
+  
+  
+  .check-box-containers {
+  
+    padding-left: 14px;
+  
+    label {
+  
+      font: normal normal 600 14px Segoe UI;
+  
+      letter-spacing: 0px;
+  
+      color: #000000;
+  
+      opacity: 1;
+  
+      margin-top: -10px;
+  
+    }
+  
+  }
+  
+  .check-box-containers input[type="checkbox"] {
+  
+    accent-color: #006837 !important;
+  
+  }

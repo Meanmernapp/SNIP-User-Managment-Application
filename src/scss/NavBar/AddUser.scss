@@ -1,0 +1,105 @@
+.addUser_labels {
+    text-align: center;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #63B3CE;
+    opacity: 1;
+}
+
+.addUser_label_id {
+    width: 2.4em;
+    margin-right: 1.25em;
+}
+
+.main_row {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000080;
+    border-radius: 3px;
+    opacity: 1;
+    margin-top: 1em !important;
+    // width: '85vw';
+}
+
+.addUser_label {
+    text-align: center;
+    font: normal normal normal 14px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+    @media only screen and (max-width: 992px) {
+        font: normal normal normal 10px/14px Montserrat;
+    }
+}
+
+.extract_label {
+    text-align: center;
+    font: normal normal bold 14px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    @media only screen and (max-width: 992px) {
+        font: normal normal bold 10px/14px Montserrat;
+    }
+}
+
+.addUser_label_map {
+    font: normal normal normal 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 4em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+.addUser_label_map_Id {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 1.5em;
+    margin-right: 2em;
+    text-align: center;
+}
+
+.addUser_label_map_options {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 5em;
+    margin-left: 1em;
+    text-align: center;
+}
+
+// .addUser_div{
+//     width: 90% !important;
+//     // justify-content: center !important;
+// }
+.addUser_label_ex_div {
+    width: 90vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000080;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.tbody {
+    margin-top: 5em !important;
+}
+
+.home_buttons {
+    display: flex;
+
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 0 0 2px !important;
+}
+
+
+.nopaddings {
+    padding: 2em 0 0 0;
+}

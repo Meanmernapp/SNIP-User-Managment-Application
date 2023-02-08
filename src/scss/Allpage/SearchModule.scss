@@ -1,0 +1,95 @@
+.search-module {
+  // max-width: 1200px;
+  width: 900px;
+  margin: auto;
+  &__about {
+      margin: 50px 0;
+  }
+  &__name {
+    text-align: left;
+    font: normal normal bold 18px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: block;
+    padding-bottom: 12px;
+  }
+  &__self {
+    text-align: left;
+    font: normal normal normal 18px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: block;
+  }
+  &__location {
+    text-align: left;
+    font: normal normal normal 18px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: inline-block;
+  }
+  &__map {
+    text-align: left;
+    font: normal normal 700 18px Segoe UI;
+    letter-spacing: 0px;
+    color: #006837;
+    opacity: 1;
+    display: inline-block;
+  }
+  &__detail {
+      display: flex;
+      justify-content: left;
+      align-items: flex-start;
+      flex-direction: column;
+  }
+  &__all {
+      width: 440px;
+      border-top: 4px dotted #006837;
+      margin: 24px 0;
+    label {
+      text-align: left;
+      font: normal normal 800 12px Montserrat;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      background-color: #fff;
+      width: 130px;
+      display: block;
+      margin-top: -11px;
+    }
+    &--desc {
+        height: 16px;
+      display: inline-block;
+      text-align: left;
+      font: normal normal normal 11px Montserrat;
+      letter-spacing: 0px;
+      font-weight: 500;
+      color: #000000;
+      opacity: 1;
+      padding-right: 20px;
+      &--note {
+        display: inline-block;
+        align-items: center;
+        font: normal normal normal 11px Montserrat;
+        letter-spacing: 0px;
+        color: #9B9B9B;
+        opacity: 1;
+        padding-left: 20px;
+        svg{
+            margin-bottom: 3px;
+            margin-left: 2px;
+        }
+      }
+    }
+  }
+}
+
+.sub-socail-sec{
+    margin-left: 40px;
+    width: 400px;
+    label{
+        width: 165px;
+    }
+}
